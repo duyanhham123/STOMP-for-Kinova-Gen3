@@ -117,7 +117,7 @@ enableVideoTraining = 1;
 
 
 
-v = VideoWriter('KinvaGen3_Training.avi');
+v = VideoWriter('KinovaGen3_Training.avi');
 v.FrameRate = 15;
 open(v);
 
@@ -148,7 +148,7 @@ close(v);
 %% Plot path
 enableVideo = 1;
 if enableVideo == 1
-    v = VideoWriter('KinvaGen3_wEEConY3.avi');
+    v = VideoWriter('KinovaGen3_wEEConY3.avi');
     v.FrameRate =2;
     open(v);
 
